@@ -1,5 +1,5 @@
 // Remplacez cette adresse par l'URL HTTPS de votre backend PythonAnywhere.
-const API_BASE_URL = "https://VOTRE-SOUS-DOMAINE.pythonanywhere.com";
+const API_BASE_URL = "https://josephatkazad2013.pythonanywhere.com";
 
 const fixturesEl = document.getElementById("fixtures");
 const statusEl = document.getElementById("status");
