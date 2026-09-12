@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="JK Prédiction - analyses football gratuites">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <title>JK Prédiction</title>
+</head>
+<body>
+<header>
+  <div>
+    <small>JK PRÉDICTION</small>
+    <h1>Matchs du jour</h1>
+  </div>
+  <button id="themeBtn">☾</button>
+</header>
+
+<main>
+  <section class="tabs">
+    <button class="active" data-day="today">Aujourd'hui</button>
+    <button data-day="tomorrow">Demain</button>
+  </section>
+
+  <div id="status" class="status">Chargement des matchs...</div>
+  <div id="fixtures"></div>
+</main>
+
+<nav>
+  <span class="selected">Accueil</span>
+  <span>Matchs</span>
+  <span>Combiné</span>
+  <span>Compte</span>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>
